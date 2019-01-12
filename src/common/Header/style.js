@@ -8,9 +8,15 @@ export const SearchInput = styled.input`
     width: 0;
     transition: all .5s ease;
     visibility: hidden;
+    padding: 0 20px;
+    color: #666;
+
+    &:focus {
+        outline: none;
+    }
 
     &.show {
-        width: 200px;
+        width: 160px;
         visibility: visible;
     }
     &.slide-enter {
@@ -18,7 +24,7 @@ export const SearchInput = styled.input`
         visibility: visible;
     }
     &.slide-enter-active {
-        width: 200px;
+        width: 160px;
     }
     &.slide-exit {
         transition: width .5s ease;

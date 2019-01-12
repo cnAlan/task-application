@@ -31,6 +31,7 @@ class Header extends Component {
             >
                 <Menu.Item key="all">
                     <Icon type="all" />Home
+                    
                 </Menu.Item>
                 <Menu.Item key="search">
                     <Icon type="search" />
